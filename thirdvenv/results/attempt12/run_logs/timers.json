@@ -1,0 +1,42 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1709039610",
+        "python_version": "3.9.13 (tags/v3.9.13:6de2ca5, May 17 2022, 16:36:42) [MSC v.1929 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\jacob\\Downloads\\Number1 - kopia\\Number1 - kopia\\thirdvenv\\Scripts\\mlagents-learn --run-id attempt12",
+        "mlagents_version": "0.30.0",
+        "mlagents_envs_version": "0.30.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "2.2.0+cpu",
+        "numpy_version": "1.21.2",
+        "end_time_seconds": "1709039671"
+    },
+    "total": 61.787517099999995,
+    "count": 1,
+    "self": 0.029015299999990418,
+    "children": {
+        "run_training.setup": {
+            "total": 0.09289199999999997,
+            "count": 1,
+            "self": 0.09289199999999997
+        },
+        "TrainerController.start_learning": {
+            "total": 61.665609800000006,
+            "count": 1,
+            "self": 0.00022659999999774527,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 61.6653067,
+                    "count": 1,
+                    "self": 61.6653067
+                },
+                "TrainerController._save_models": {
+                    "total": 7.650000000580803e-05,
+                    "count": 1,
+                    "self": 7.650000000580803e-05
+                }
+            }
+        }
+    }
+}
